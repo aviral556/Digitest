@@ -1,0 +1,53 @@
+2025-06-29 11:31:48.900 [info] [main] Log level: Info
+2025-06-29 11:31:48.900 [info] [main] Validating found git in: "git"
+2025-06-29 11:31:48.900 [info] [main] Using git "2.43.0" from "git"
+2025-06-29 11:31:48.900 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-29 11:31:48.900 [info] > git rev-parse --show-toplevel [6ms]
+2025-06-29 11:31:48.900 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-06-29 11:31:48.900 [info] [Model][openRepository] Opened repository: /home/aviral556
+2025-06-29 11:31:48.900 [info] > git config --get commit.template [11ms]
+2025-06-29 11:31:48.900 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-29 11:31:48.900 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [51ms]
+2025-06-29 11:31:48.900 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-06-29 11:31:48.900 [info] > git rev-parse --show-toplevel [3ms]
+2025-06-29 11:31:48.906 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-29 11:31:48.912 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-29 11:31:48.917 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-29 11:31:48.922 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-29 11:31:48.928 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-29 11:31:48.934 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-29 11:31:48.940 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-29 11:31:48.951 [info] > git rev-parse --show-toplevel [7ms]
+2025-06-29 11:31:48.958 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-06-29 11:31:48.964 [info] [Model][openRepository] Opened repository: /home/aviral556/codelab-genai
+2025-06-29 11:31:49.015 [info] > git rev-parse --show-toplevel [5ms]
+2025-06-29 11:31:49.016 [info] > git config --get commit.template [9ms]
+2025-06-29 11:31:49.026 [info] > git rev-parse --show-toplevel [6ms]
+2025-06-29 11:31:49.027 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-29 11:31:49.028 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-29 11:31:49.042 [info] > git status -z -uall [10ms]
+2025-06-29 11:31:49.044 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-06-29 11:31:49.069 [info] > git status -z -uall [186ms]
+2025-06-29 11:31:49.069 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2025-06-29 11:31:49.076 [info] > git config --get commit.template [7ms]
+2025-06-29 11:31:49.113 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-06-29 11:31:49.117 [info] > git config --get --local branch.main.vscode-merge-base [43ms]
+2025-06-29 11:31:49.117 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-29 11:31:49.126 [info] > git config --get --local branch.master.vscode-merge-base [9ms]
+2025-06-29 11:31:49.126 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-29 11:31:49.131 [info] > git config --get commit.template [18ms]
+2025-06-29 11:31:49.151 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2025-06-29 11:31:49.151 [info] > git reflog main --grep-reflog=branch: Created from *. [30ms]
+2025-06-29 11:31:49.158 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-29 11:31:49.160 [info] > git reflog master --grep-reflog=branch: Created from *. [30ms]
+2025-06-29 11:31:49.163 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-06-29 11:31:49.172 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [18ms]
+2025-06-29 11:31:49.172 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-06-29 11:31:49.172 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-06-29 11:31:49.333 [info] > git merge-base refs/heads/main refs/remotes/origin/main [155ms]
+2025-06-29 11:31:49.338 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [167ms]
+2025-06-29 11:31:51.277 [info] > git status -z -uall [2110ms]
+2025-06-29 11:31:51.277 [info] > git status -z -uall [1932ms]
+2025-06-29 11:31:51.277 [info] > git diff --name-status -z --diff-filter=ADMR 8ff863eeea5c72e887d243c560492d0052fe14dd...refs/remotes/origin/main [1939ms]
+2025-06-29 11:31:51.297 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1947ms]
+2025-06-29 11:31:51.331 [info] > git check-ignore -v -z --stdin [47ms]

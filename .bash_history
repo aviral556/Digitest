@@ -1,94 +1,3 @@
-docker images
-docker rmi gcp-frontent
-docker ps -a
-docker build -t gcp-frontent
-docker build -t gcp-frontent .
-docker images
-docker run -d -p 8080:80 gcp-frontent
-docker ps
-docker exec -ti e34fffb2c16c
-docker exec -ti e34fffb2c16c bash
-docker ps
-docker stop e34fffb2c16c
-docker rm e34fffb2c16c
-docker images
-docker rmi gcp-frontent
-docker build -t gcp-frontent .
-docker run -d -p 8080:80 gcp-frontent
-docker ps
-docker exec -t 0bbde5922917 bash 
-docker exec -t 0bbde5922917 sh
-docker exec -ti 0bbde5922917 sh
-docker ps
-docker stop 0bbde5922917
-docker rm 0bbde5922917
-docker images
-docker rmi gcp-frontent
-ls
-cd dist
-ls
-cd gcp-frontent
-cd gcp-frontend
-ls
-cd browser
-ls
-mv index.csr.html index.html
-ls -a
-docker build -t gcp-frontent .
-cd ..
-docker build -t gcp-frontent .
-docker run -d -p 8080:80 gcp-frontent
-docker ps
-docker images
-docker build -t gcp-frontent .
-docker run -d -p 8080:80 gcp-frontent
-DOLOR SHELLDOLOR SH
-echo $SHELL
-docker exec -ti gcp-frontent bash
-docker ps
-docker exec -ti gcp-fro bash
-d bash
-clr
-clear
-docker ps
-docker exec -ti 4418969689d3 bash
-docker exec -ti 4418969689d3 /bin/bash
-sudo docker exec -ti 4418969689d3 /bin/bash
-ls
-cd dist
-ls
-cd gcp-frontend
-ls
-ls browser
-ls assets
-cd..
-cd ..
-ls
-cd ..
-ls
-biswabandita_rout
-cd biswabandita_rout
-ls
-docker build -t backend . -f backend_dockerfile
-docker ps
-docker images
-docker build -t frontend .
-docker run
-docker run -ti
-docker run -d -p 8080:80 frontend 
-docker ps
-docker stop c75fe91fc56f
-docker images
-docker rmi frontend
-docker build -t frontend .
-docker run -d -p 8080:80 frontend 
-docker ps
-docker stop 87d0230d662b
-docker rmi frontend
-docker build -t frontend .
-docker run -d -p 8080:80 frontend 
-docker ps
-biswabandita_rout@cloudshell:~ (digisahayak-091220241130)$ docker run -d -p 8080:80 frontend 
 87d0230d662b73e953def91ae0398e908fa49192a7ad06afd1c7c20106139c5c
 biswabandita_rout@cloudshell:~ (digisahayak-091220241130)$ docker ps
 CONTAINER ID   IMAGE      COMMAND                  CREATED          STATUS          PORTS                  NAMES
@@ -513,3 +422,95 @@ docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-
 git branches
 git branch
 git push
+ls
+docker build -t asia-south1-docker.pkg.dev/psychic-destiny-446908-b3/digi/backend:v1.1 -f backend_dockerfile .
+docker push asia-south1-docker.pkg.dev/psychic-destiny-446908-b3/digi/backend:v1.1
+docker build -t asia-south1-docker.pkg.dev/psychic-destiny-446908-b3/digi/backend:v1.2 -f backend_dockerfile .
+gcloud config set project aviral
+gcloud services enable   run.googleapis.com   cloudbuild.googleapis.com   aiplatform.googleapis.com
+gcloud projects list | awk '/PROJECT_ID/{print $2}'
+gcloud services enable   run.googleapis.com   cloudbuild.googleapis.com   aiplatform.googleapis.com
+gcloud auth list
+gcloud config set account aviral556@gmail.com
+gcloud services enable   run.googleapis.com   cloudbuild.googleapis.com   aiplatform.googleapis.com
+gcloud config set project Aviral
+gcloud config set project aviral-457310
+gcloud services enable   run.googleapis.com   cloudbuild.googleapis.com   aiplatform.googleapis.com
+git config --global user.email "aviral556@gmail.com"
+git config --global user.name "Aviral"
+git config --global init.defaultBranch main
+cd ~
+mkdir codelab-genai
+cd codelab-genai
+touch main.py
+cat > requirements.txt << EOF
+Flask==3.0.0
+gunicorn==20.1.0
+EOF
+
+cloudshell edit main.py
+cd ~/codelab-genai
+git init -b main
+gh auth login
+gh api user -q ".login"
+GITHUB_USERNAME=$(gh api user -q ".login")
+gh auth login
+gh api user -q ".login"
+GITHUB_USERNAME=$(gh api user -q ".login")
+echo ${GITHUB_USERNAME}
+gh repo create codelab-genai --private
+git remote add origin https://github.com/${GITHUB_USERNAME}/codelab-genai
+cd ~/codelab-genai
+git add .
+git commit -m "add http server"
+git push -u origin main
+echo -e "\n\nTo see your code, visit this URL:\n \
+    https://github.com/${GITHUB_USERNAME}/codelab-genai/blob/main/main.py \n\n"
+echo -e "\n\nOnce the build finishes, visit your live application:\n \
+    "$( \
+        gcloud run services list | \
+        grep codelab-genai | \
+        awk '/URL/{print $2}' | \
+        head -1 \
+    )" \n\n"
+gcloud config set project [PROJECT_ID]
+gcloud config set project aviral-457310
+cd ~/codelab-genai
+sed -i -e '$agoogle-cloud-aiplatform==1.59.0' requirements.txt
+sed -i -e '$agoogle-auth==2.32.0' requirements.txt
+cloudshell edit main.py
+cd ~/codelab-genai
+git add .
+git commit -m "add latest changes"
+git push
+echo -e "\n\nOnce the build finishes, visit your live application:\n \
+    "$( \
+        gcloud run services list | \
+        grep codelab-genai | \
+        awk '/URL/{print $2}' | \
+        head -1 \
+    )" \n\n"
+echo -e "\n\nOnce the build finishes, visit your live application:\n \
+    "$( \
+        gcloud run services list | \
+        grep codelab-genai | \
+        awk '/URL/{print $2}' | \
+        head -1 \
+    )" \n\n"
+gcloud run services list
+ls
+cd frontend
+ls
+docker ps
+docker ps -a
+docker build .
+ls
+cd ..
+ls
+docker build .
+docker ps
+docker images
+docker run -it -p 80:80 da4b6d92206b
+docker ps
+docker images
+docker run -p 8080:80 -it da4b6d92206b

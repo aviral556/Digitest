@@ -1,0 +1,54 @@
+2025-06-29 11:30:39.727 [info] 
+
+
+
+
+2025-06-29 11:30:39.727 [info] Extension host agent started.
+2025-06-29 11:31:26.677 [info] [127.0.0.1][e0d2b798][ManagementConnection] New connection established.
+2025-06-29 11:31:26.842 [info] [127.0.0.1][30832ecb][ExtensionHostConnection] New connection established.
+2025-06-29 11:31:27.656 [info] [127.0.0.1][30832ecb][ExtensionHostConnection] <1244> Launched Extension Host Process.
+2025-06-29 11:31:41.859 [error] [127.0.0.1][f97c18b0][ManagementConnection] Unknown reconnection token (never seen).
+2025-06-29 11:31:42.939 [info] [127.0.0.1][5cb36f16][ManagementConnection] New connection established.
+2025-06-29 11:31:43.167 [info] [127.0.0.1][144515d1][ExtensionHostConnection] New connection established.
+2025-06-29 11:31:43.297 [info] [127.0.0.1][144515d1][ExtensionHostConnection] <1416> Launched Extension Host Process.
+2025-06-29 11:31:45.216 [warning] RequestStore#acceptReply was called without receiving a matching request 13
+2025-06-29 11:31:45.216 [warning] RequestStore#acceptReply was called without receiving a matching request 14
+2025-06-29 11:31:45.216 [warning] RequestStore#acceptReply was called without receiving a matching request 15
+2025-06-29 11:31:45.216 [warning] RequestStore#acceptReply was called without receiving a matching request 16
+2025-06-29 11:31:45.217 [warning] RequestStore#acceptReply was called without receiving a matching request 17
+2025-06-29 11:31:45.217 [warning] RequestStore#acceptReply was called without receiving a matching request 18
+2025-06-29 11:31:45.217 [warning] RequestStore#acceptReply was called without receiving a matching request 19
+2025-06-29 11:31:45.217 [warning] RequestStore#acceptReply was called without receiving a matching request 20
+2025-06-29 11:31:45.217 [warning] RequestStore#acceptReply was called without receiving a matching request 21
+2025-06-29 11:31:45.217 [warning] RequestStore#acceptReply was called without receiving a matching request 22
+2025-06-29 11:31:45.217 [warning] RequestStore#acceptReply was called without receiving a matching request 23
+2025-06-29 11:31:45.217 [warning] RequestStore#acceptReply was called without receiving a matching request 24
+2025-06-29 11:45:58.262 [info] Getting Manifest... knisterpeter.vscode-github
+2025-06-29 11:45:59.920 [info] Installing extension: knisterpeter.vscode-github {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/aviral556/.codeoss/extensions/extensions.json","external":"file:///home/aviral556/.codeoss/extensions/extensions.json","path":"/home/aviral556/.codeoss/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.3-cde","date":"2025-06-10T07:11:58.134Z"}}
+2025-06-29 11:46:03.521 [info] Extracted extension to file:///home/aviral556/.codeoss/extensions/knisterpeter.vscode-github-0.30.7-universal: knisterpeter.vscode-github
+2025-06-29 11:46:03.589 [info] Renamed to /home/aviral556/.codeoss/extensions/knisterpeter.vscode-github-0.30.7-universal
+2025-06-29 11:46:03.604 [info] Extension installed successfully: knisterpeter.vscode-github file:///home/aviral556/.codeoss/extensions/extensions.json
+2025-06-29 11:46:37.497 [warning] RequestStore#acceptReply was called without receiving a matching request 25
+2025-06-29 11:46:37.497 [warning] RequestStore#acceptReply was called without receiving a matching request 26
+2025-06-29 11:46:37.497 [warning] RequestStore#acceptReply was called without receiving a matching request 27
+2025-06-29 11:46:37.497 [warning] RequestStore#acceptReply was called without receiving a matching request 28
+2025-06-29 11:46:37.497 [warning] RequestStore#acceptReply was called without receiving a matching request 29
+2025-06-29 11:46:37.497 [warning] RequestStore#acceptReply was called without receiving a matching request 30
+2025-06-29 11:46:37.498 [warning] RequestStore#acceptReply was called without receiving a matching request 31
+2025-06-29 11:46:37.498 [warning] RequestStore#acceptReply was called without receiving a matching request 32
+2025-06-29 11:46:37.498 [warning] RequestStore#acceptReply was called without receiving a matching request 33
+2025-06-29 11:46:37.498 [warning] RequestStore#acceptReply was called without receiving a matching request 34
+2025-06-29 11:46:37.498 [warning] RequestStore#acceptReply was called without receiving a matching request 35
+2025-06-29 11:46:37.498 [warning] RequestStore#acceptReply was called without receiving a matching request 36
+2025-06-29 11:47:37.497 [warning] RequestStore#acceptReply was called without receiving a matching request 37
+2025-06-29 11:47:37.497 [warning] RequestStore#acceptReply was called without receiving a matching request 38
+2025-06-29 11:47:37.497 [warning] RequestStore#acceptReply was called without receiving a matching request 39
+2025-06-29 11:47:37.497 [warning] RequestStore#acceptReply was called without receiving a matching request 40
+2025-06-29 11:47:37.498 [warning] RequestStore#acceptReply was called without receiving a matching request 41
+2025-06-29 11:47:37.498 [warning] RequestStore#acceptReply was called without receiving a matching request 42
+2025-06-29 11:47:37.498 [warning] RequestStore#acceptReply was called without receiving a matching request 43
+2025-06-29 11:47:37.498 [warning] RequestStore#acceptReply was called without receiving a matching request 44
+2025-06-29 11:47:37.498 [warning] RequestStore#acceptReply was called without receiving a matching request 45
+2025-06-29 11:47:37.498 [warning] RequestStore#acceptReply was called without receiving a matching request 46
+2025-06-29 11:47:37.498 [warning] RequestStore#acceptReply was called without receiving a matching request 47
+2025-06-29 11:47:37.498 [warning] RequestStore#acceptReply was called without receiving a matching request 48
